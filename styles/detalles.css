@@ -1,0 +1,45 @@
+
+body{
+    background: linear-gradient(to bottom, #00bfff, #0077be, #00487d, #002645);
+}
+
+img {
+    width: 100%;
+}
+
+#nombre {
+    text-transform: capitalize;
+}
+
+/* #descripcion {
+    text-transform: capitalize;
+} */
+
+#habilidad {
+    text-transform: capitalize;
+}
+
+.moves-container {
+    height: 200px;
+    overflow-y: scroll;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.moves-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.stats-container{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.card{
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
